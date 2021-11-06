@@ -7,7 +7,7 @@ import {
 } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./HeroStyles";
-import { Document, Page } from "react-pdf";
+// import { Document, Page } from "react-pdf";
 
 // import Pdf from "src/components/pdf/CV.pdf";
 
