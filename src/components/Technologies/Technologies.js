@@ -21,7 +21,9 @@ const Technologies = () => (
     <br />
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
-      I've worked on technologies ranging from conveoptimization.{" "}
+      I've worked on technologies and problems ranging from sequential decision
+      making, machine leaning, deep learning, multi-agent reinforcement
+      learning, convex optimization, wireless communication{" "}
     </SectionText>
     <List>
       <ListItem>
