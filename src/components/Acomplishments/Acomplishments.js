@@ -32,7 +32,9 @@ const data = [
 ];
 
 const Acomplishments = () => (
-  <Section>
+  <Section id="pubs">
+    <SectionDivider />
+    <br />
     <SectionTitle>Publications</SectionTitle>
     <Boxes>
       {data.map((card, index) => (

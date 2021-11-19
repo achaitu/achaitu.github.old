@@ -26,11 +26,16 @@ const Header = () => (
           }}
         >
           <DiCssdeck size="3rem" />
-          <Span>Portfolio</Span>
+          <Span>Chaitanya</Span>
         </a>
       </Link>
     </Div1>
     <Div2>
+    <li>
+        <Link href="#about">
+          <NavLink>About</NavLink>
+        </Link>
+      </li>
       <li>
         <Link href="#projects">
           <NavLink>Projects</NavLink>
@@ -42,10 +47,11 @@ const Header = () => (
         </Link>
       </li>
       <li>
-        <Link href="#about">
-          <NavLink>About</NavLink>
+        <Link href="#pubs">
+          <NavLink>Publications</NavLink>
         </Link>
       </li>
+      
     </Div2>
     <Div3>
       <SocialIcons href="https://github.com/achaitu/">
