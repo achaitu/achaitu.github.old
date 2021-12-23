@@ -1,6 +1,8 @@
 import Link from "next/link";
 import React from "react";
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { SiGooglescholar } from "react-icons/si";
+
 import { DiCssdeck } from "react-icons/di";
 
 import {
@@ -31,7 +33,7 @@ const Header = () => (
       </Link>
     </Div1>
     <Div2>
-    <li>
+      <li>
         <Link href="#about">
           <NavLink>About</NavLink>
         </Link>
@@ -51,7 +53,6 @@ const Header = () => (
           <NavLink>Publications</NavLink>
         </Link>
       </li>
-      
     </Div2>
     <Div3>
       <SocialIcons href="https://github.com/achaitu/">
@@ -60,8 +61,8 @@ const Header = () => (
       <SocialIcons href="https://linkedin.com/in/chaitanya-amballa/">
         <AiFillLinkedin size="3rem"></AiFillLinkedin>
       </SocialIcons>
-      <SocialIcons href="https://www.instagram.com/achaitu_/">
-        <AiFillInstagram size="3rem"></AiFillInstagram>
+      <SocialIcons href="https://scholar.google.com/citations?user=xWSXomQAAAAJ&hl=en/">
+        <SiGooglescholar size="3rem"></SiGooglescholar>
       </SocialIcons>
     </Div3>
   </Container>

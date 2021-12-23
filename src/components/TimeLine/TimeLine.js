@@ -67,9 +67,9 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I'm intersted in solving real world problems pertaining to industrial,
-        medical, finance domains using Artificial Intelligence. I wish to
-        develop algorithms that provide practical gurarantees.
+        My end goal is to aid small to medium-scale businesses in making
+        reliable decisions with guarantees. I'm intersted in solving these
+        real-world problems pertaining to industrial, medical domains using ML.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
